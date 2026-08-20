@@ -1,0 +1,17 @@
+{
+  "accuracy_global": 0.71,
+  "por_clase": {
+    "Robbery": {
+      "precision": 0.8823529411764706,
+      "recall": 0.6,
+      "f1": 0.7142857142857143,
+      "n_videos": 50
+    },
+    "Normal": {
+      "precision": 0.7735849056603774,
+      "recall": 0.82,
+      "f1": 0.7961165048543689,
+      "n_videos": 50
+    }
+  }
+}

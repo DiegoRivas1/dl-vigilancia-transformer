@@ -4,11 +4,17 @@ __pycache__/
 data/raw/
 data/processed/*
 !data/processed/manifest.csv
+models/*/*.weights.h5
 models/*/*.pt
 models/*/*.pth
 !models/*/config.json
 !models/*/metrics.json
+!models/*/metrics_peru*.json
 !models/*/history.csv
+!models/*/*.png
+!models/*/**/*.png
+!models/*/**/*.csv
+!models/*/**/*.json
 *.mp4
 *.avi
 .idea/

@@ -1,0 +1,11 @@
+clase_real_peru,predicho_como,cantidad,porcentaje
+Normal,Normal,41,41.0
+Normal,Robbery,25,25.0
+Normal,Shoplifting,22,22.0
+Normal,Burglary,6,6.0
+Normal,Stealing,6,6.0
+Robbery,Normal,33,33.0
+Robbery,Stealing,25,25.0
+Robbery,Robbery,19,19.0
+Robbery,Shoplifting,15,15.0
+Robbery,Burglary,8,8.0

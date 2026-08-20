@@ -110,8 +110,9 @@ def process_ucf_crime(raw_dir: Path, out_dir: Path, classes: list,
         for video_path in tqdm(videos, desc=f"ucf/{clase}"):
             split_name = split_map.get(video_path.name)
             if split_name is None:
-                print(f"  [WARN] {video_path.name} no esta en el split oficial, se omite")
-                continue
+                split_name = "train"  # video adicional, fuera del split oficial -> siempre a train
+                print(f"  [INFO] {video_path.name} no esta en el split oficial UCF-Crime, "
+                      f"se asigna a train (fuente adicional)")
 
             sequence = extract_sequence(video_path, seq_len, img_size)
             if sequence is None:
