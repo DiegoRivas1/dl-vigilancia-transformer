@@ -1,0 +1,10 @@
+keras>=3.0
+numpy
+pandas
+opencv-python
+scikit-learn
+matplotlib
+seaborn
+pyyaml
+tqdm
+Pillow
