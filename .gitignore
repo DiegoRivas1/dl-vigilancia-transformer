@@ -2,7 +2,8 @@
 __pycache__/
 *.pyc
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/manifest.csv
 models/*/*.pt
 models/*/*.pth
 !models/*/config.json
